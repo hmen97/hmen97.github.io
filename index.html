@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Herman Menezes · Computer Vision &amp; Machine Learning</title>
+  <meta name="description" content="Herman Menezes, MSc Data Science student at RWTH Aachen working on 3D and 4D computer vision.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232f6b4f'/%3E%3Ccircle cx='11' cy='12' r='2.5' fill='%23cfe8dc'/%3E%3Ccircle cx='21' cy='10' r='2' fill='%23cfe8dc'/%3E%3Ccircle cx='16' cy='20' r='3' fill='%2379d0c8'/%3E%3C/svg%3E">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="wrap nav">
+      <a class="brand" href="#top">HM</a>
+      <ul>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <div class="hero-text">
+        <p class="eyebrow">Computer vision · Machine learning</p>
+        <h1>Herman Menezes</h1>
+        <p class="lede">
+          MSc Data Science student at RWTH Aachen, working on 3D and 4D scene understanding
+          in the Computer Vision Group. Before that, I spent three years building
+          production ML at AI startups: liveness detection, digital onboarding and speech recognition.
+        </p>
+        <p class="hero-links">
+          <a class="btn" href="mailto:mendozahreeman@gmail.com">Email me</a>
+          <a class="btn btn-ghost" href="https://github.com/hmen97">GitHub</a>
+        </p>
+        <p class="where">Aachen, Germany</p>
+      </div>
+      <!-- Decorative point cloud: leaves turning into sampled 3D points -->
+      <svg class="hero-art" viewBox="0 0 240 240" aria-hidden="true">
+        <g class="pts-a">
+          <circle cx="52" cy="150" r="3"/><circle cx="70" cy="128" r="3.5"/><circle cx="92" cy="110" r="4"/>
+          <circle cx="116" cy="96" r="4.5"/><circle cx="142" cy="88" r="4"/><circle cx="168" cy="86" r="3.5"/>
+          <circle cx="190" cy="90" r="3"/><circle cx="80" cy="150" r="3"/><circle cx="104" cy="134" r="3.5"/>
+          <circle cx="130" cy="122" r="4"/><circle cx="156" cy="116" r="3.5"/><circle cx="180" cy="114" r="3"/>
+        </g>
+        <g class="pts-b">
+          <circle cx="66" cy="176" r="2.5"/><circle cx="94" cy="166" r="3"/><circle cx="122" cy="154" r="3.5"/>
+          <circle cx="150" cy="146" r="3"/><circle cx="176" cy="140" r="2.5"/><circle cx="200" cy="118" r="2.5"/>
+          <circle cx="110" cy="190" r="2.5"/><circle cx="140" cy="178" r="3"/><circle cx="168" cy="168" r="2.5"/>
+        </g>
+        <g class="pts-c">
+          <circle cx="40" cy="198" r="2"/><circle cx="84" cy="206" r="2"/><circle cx="130" cy="210" r="2"/>
+          <circle cx="178" cy="196" r="2"/><circle cx="208" cy="160" r="2"/><circle cx="196" cy="60" r="2"/>
+          <circle cx="150" cy="56" r="2"/><circle cx="104" cy="70" r="2"/>
+        </g>
+        <path class="stem" d="M44 200 C 90 170, 140 120, 206 80" />
+      </svg>
+    </section>
+
+    <section id="work" class="wrap section">
+      <h2>Selected work</h2>
+      <div class="cards">
+        <article class="card">
+          <p class="card-tag">Research · RWTH Computer Vision Group</p>
+          <h3>4D panoptic segmentation of LiDAR sequences</h3>
+          <p>Replaced the generic MLP prediction head in a Pointcept&nbsp;V3 pipeline with a Mask4Former head,
+            and added backward-compatible dataset and metrics modules. Trained and compared runs on the CLAIX cluster.</p>
+          <p class="tools">PyTorch · SemanticKITTI · Spconv · MinkowskiEngine · W&amp;B</p>
+        </article>
+        <article class="card">
+          <p class="card-tag">Seminar report</p>
+          <h3>MonST3R: geometry in the presence of motion</h3>
+          <p>A literature study on structure from motion and static 3D reconstruction, with architecture
+            diagrams showing how DUSt3R's cross-view embeddings extend to dynamic scenes.</p>
+          <p class="tools">LaTeX · DUSt3R · MonST3R</p>
+          <a class="card-link" href="https://drive.google.com/file/d/1wO-x3ON26jbDCU9bqOgsxNHNWH6VeeY5/view?usp=drive_link">Read the report →</a>
+        </article>
+        <article class="card">
+          <p class="card-tag">Product · Affinsys AI</p>
+          <h3>Browser liveness detection</h3>
+          <p>A liveness detection product that runs in the browser and is optimized for commodity hardware.
+            I also led the core features of a digital KYC product for remote bank onboarding.</p>
+          <p class="tools">TensorFlow · PyTorch · OpenPose · OpenCV · WebRTC</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="wrap section">
+      <h2>Experience</h2>
+      <ol class="timeline">
+        <li>
+          <p class="when">Oct 2026 – Jan 2027</p>
+          <div>
+            <h3>Teaching Assistant <span>· AI Methodology, RWTH Aachen</span></h3>
+            <p>Weekly tutorials and grading for “Elements of Machine Learning”: decision trees, frequent
+              itemsets, SVMs, regression, neural networks and more.</p>
+          </div>
+        </li>
+        <li>
+          <p class="when">Apr 2025 – Nov 2025</p>
+          <div>
+            <h3>Research Assistant <span>· Computer Vision Group, RWTH Aachen</span></h3>
+            <p>Extended the Pointcept&nbsp;V3 codebase and built a deeper 4D panoptic segmentation pipeline
+              with a Mask4Former head; visualized and compared 4D segmented maps across runs.</p>
+          </div>
+        </li>
+        <li>
+          <p class="when">Oct 2024 – Jan 2025</p>
+          <div>
+            <h3>Seminar <span>· Computer Vision Group, RWTH Aachen</span></h3>
+            <p>Report on MonST3R and DUSt3R, consolidating the notation of both papers for readability.</p>
+          </div>
+        </li>
+        <li>
+          <p class="when">Jul 2023 – Feb 2024</p>
+          <div>
+            <h3>Engineer, AI Products <span>· Voiceplug AI, remote</span></h3>
+            <p>Fine-tuned cloud-hosted speech recognition models across clients and updated
+              language-model intents and entities for client-specific offerings.</p>
+          </div>
+        </li>
+        <li>
+          <p class="when">Jun 2020 – Nov 2022</p>
+          <div>
+            <h3>Software Engineer <span>· Affinsys AI, India</span></h3>
+            <p>Built a browser-based liveness detection product and led the core of a digital KYC product.</p>
+          </div>
+        </li>
+        <li>
+          <p class="when">Dec 2019 – Jun 2020</p>
+          <div>
+            <h3>Deep Learning Research Intern <span>· Affinsys AI, India</span></h3>
+            <p>Fine-tuned open-source English ASR models for African English accents in a banking
+              use case with over 90 intents.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section id="skills" class="wrap section">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div>
+          <h3>Computer vision &amp; 3D</h3>
+          <ul class="chips"><li>Point clouds</li><li>4D panoptic segmentation</li><li>3D reconstruction</li><li>OpenCV</li><li>OpenPose</li><li>Spconv</li><li>MinkowskiEngine</li></ul>
+        </div>
+        <div>
+          <h3>Machine learning</h3>
+          <ul class="chips"><li>PyTorch</li><li>TensorFlow</li><li>Speech recognition</li><li>RASA</li><li>Weights &amp; Biases</li></ul>
+        </div>
+        <div>
+          <h3>Engineering</h3>
+          <ul class="chips"><li>Python</li><li>Django</li><li>WebRTC</li><li>AWS</li><li>Azure</li><li>HPC clusters (CLAIX)</li><li>Git</li><li>Jira</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="wrap section">
+      <h2>Education</h2>
+      <div class="edu">
+        <div>
+          <p class="when">Apr 2024 – present</p>
+          <h3>MSc Data Science</h3>
+          <p>RWTH Aachen University, Germany · Specialization in Computer Science</p>
+        </div>
+        <div>
+          <p class="when">Jun 2016 – Jun 2020</p>
+          <h3>B.Tech Computer Science and Engineering</h3>
+          <p>Vellore Institute of Technology, India · Final grade 8.68 / 10</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap section beyond">
+      <h2>Beyond work</h2>
+      <dl>
+        <div><dt>Volunteering</dt><dd>NABU Aachen working group · Agroforestry volunteer at CatFarm</dd></div>
+        <div><dt>Languages</dt><dd>English (native) · German (B1)</dd></div>
+        <div><dt>Outside</dt><dd>Calisthenics, yoga, hiking, reading and writing</dd></div>
+      </dl>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div class="wrap">
+      <h2>Get in touch</h2>
+      <p>Open to roles in computer vision and applied machine learning.</p>
+      <p class="hero-links">
+        <a class="btn" href="mailto:mendozahreeman@gmail.com">mendozahreeman@gmail.com</a>
+        <a class="btn btn-ghost" href="https://github.com/hmen97">github.com/hmen97</a>
+      </p>
+      <p class="fine">References available on request · Aachen, Germany</p>
+    </div>
+  </footer>
+</body>
+</html>
